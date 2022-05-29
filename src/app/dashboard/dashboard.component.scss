@@ -1,0 +1,21 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.filters-container {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-input {
+  margin: 0 5px;
+}
+
+.search-btn {
+  width: 150px;
+}

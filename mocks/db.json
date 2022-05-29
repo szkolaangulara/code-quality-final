@@ -1,0 +1,46 @@
+{
+  "cars-all": [
+    {
+      "brand": "Audi",
+      "model": "RS7",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/3-small.jpeg",
+      "price": 250000
+    },
+    {
+      "brand": "Mercedes",
+      "model": "GT",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/4-small.jpeg",
+      "price": 980000
+    },
+    {
+      "brand": "Lamborghini",
+      "model": "Urus",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/10-small.jpeg",
+      "price": 1560000
+    },
+    {
+      "brand": "Mercedes",
+      "model": "Klasa G",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/6-small.jpeg",
+      "price": 1400000
+    },
+    {
+      "brand": "BMW",
+      "model": "Seria 3",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/7-small.jpeg",
+      "price": 54000
+    },
+    {
+      "brand": "Nissan",
+      "model": "370z",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/8-small.jpeg",
+      "price": 70112
+    },
+    {
+      "brand": "Audi",
+      "model": "A3",
+      "imgSrc": "https://www.szkolaangulara.pl/wp-content/uploads/2020/05/5-small.jpeg",
+      "price": 125000
+    }
+  ]
+}

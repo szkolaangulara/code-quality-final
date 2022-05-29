@@ -1,0 +1,24 @@
+<div class="main-container">
+  <div class="filters-container">
+    <div class="filters-section">
+      <app-input class="filter-input" (valueChanged)="brandValueChanged($event)" placeholder="Marka"></app-input>
+      <app-input class="filter-input" (valueChanged)="priceToValueChanged($event)" placeholder="Cena do"></app-input>
+    </div>
+
+    <button class="blue-btn search-btn" (click)="searchCars()">Szukaj</button>
+  </div>
+
+  <div class="cards-container">
+    <ng-container *ngIf="isError">
+      <p>Wystąpił problem z naszą usługą. Spróbuj ponownie lub skontaktuj się z administratorem.</p>
+    </ng-container>
+    <ng-container *ngIf="(cars$ | async) as cars">
+      <app-car-card class="car-card"
+                    *ngFor="let car of cars"
+                    [model]="car.model"
+                    [brand]="car.brand"
+                    [imgSrc]="car.imgSrc"
+      ></app-car-card>
+    </ng-container>
+  </div>
+</div>
